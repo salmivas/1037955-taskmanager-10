@@ -5,10 +5,10 @@ import {createTaskTemplate} from './components/task';
 import {createTaskEditTemplate} from './components/task-edit';
 import {createLoadMoreButtonTemplate} from './components/load-more-button';
 
+const TASK_COUNT = 3;
 const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
 };
-const TASK_COUNT = 3;
 const siteMainElement = document.querySelector(`.main`);
 const siteHeaderElement = siteMainElement.querySelector(`.main__control`);
 
