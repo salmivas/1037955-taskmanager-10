@@ -1,6 +1,5 @@
 import {COLORS} from '../const.js';
 
-
 const DescriptionItems = [
   `Изучить теорию`,
   `Сделать домашку`,
@@ -77,8 +76,4 @@ const generateTasks = (count) => {
     .map(generateTask);
 };
 
-export {
-  generateTask,
-  generateTasks,
-};
-
+export {generateTask, generateTasks};
